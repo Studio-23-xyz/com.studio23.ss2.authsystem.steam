@@ -1,0 +1,35 @@
+{
+  "name": "com.studio23.ss2.authsystem.steam",
+  "version": "0.1",
+  "displayName": "AuthenticationSteam",
+  "description": "This is an authentication system for steam. Used for checking and validating steam DRM for the game.",
+  "unity": "2022.3",
+  "unityRelease": "10f1",
+  "documentationUrl": "https://openupm.com/packages/com.studio23.ss2.authsystem.steam",
+  "changelogUrl": "https://openupm.com/packages/com.studio23.ss2.authsystem.steam",
+  "licensesUrl": "https://api.github.com/licenses/mit",
+  "scopedRegistries": [
+    {
+      "name": "Studio 23",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.studio23.ss2.authsystem.steam"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.studio23.ss2.authsystem": "1.0.0",
+    "com.facepunch.steamworks": "2.3.6"
+  },
+  "keywords": [
+    "Steam",
+    "Authentication",
+    "DRM"
+  ],
+  "author": {
+    "name": "DefaultCompany",
+    "email": "contact@studio-23.xyz",
+    "url": "https://studio-23.xyz"
+  }
+}
