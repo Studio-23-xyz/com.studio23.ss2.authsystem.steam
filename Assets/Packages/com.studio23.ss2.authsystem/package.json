@@ -1,0 +1,35 @@
+{
+  "name": "com.studio23.ss2.authsystem",
+  "version": "1.0",
+  "displayName": "AuthSystem",
+  "description": "This system will be used to check user authentication for validating proper digital rights management (DRM) of the game.",
+  "unity": "2022.3",
+  "unityRelease": "10f1",
+  "documentationUrl": "https://openupm.com/packages/com.studio23.ss2.authsystem",
+  "changelogUrl": "https://openupm.com/packages/com.studio23.ss2.authsystem",
+  "licensesUrl": "https://api.github.com/licenses/mit",
+  "scopedRegistries": [
+    {
+      "name": "Studio 23",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.studio23.ss2.authsystem"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "keywords": [
+    "AuthSystem",
+    "Authentication",
+    "Steam",
+    "Auth",
+    "XBOX"
+  ],
+  "author": {
+    "name": "Studio23",
+    "email": "contact@studio-23.xyz",
+    "url": "https://studio-23.xyz"
+  }
+}
