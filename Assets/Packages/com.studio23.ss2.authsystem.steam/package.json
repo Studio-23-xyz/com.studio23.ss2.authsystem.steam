@@ -1,7 +1,7 @@
 {
   "name": "com.studio23.ss2.authsystem.steam",
-  "version": "0.9.0",
-  "displayName": "AuthenticationSteam",
+  "version": "1.0.0",
+  "displayName": "Authentication System - Steam",
   "description": "This is an authentication system for steam. Used for checking and validating steam DRM for the game.",
   "unity": "2022.3",
   "unityRelease": "10f1",
@@ -18,8 +18,7 @@
     }
   ],
   "dependencies": {
-    "com.unity.nuget.newtonsoft-json": "3.2.1",
-    "com.studio23.ss2.authsystem": "1.0.0",
+    "com.studio23.ss2.authsystem": "2.0.0",
     "com.facepunch.steamworks": "2.3.6"
   },
   "keywords": [
@@ -28,7 +27,7 @@
     "DRM"
   ],
   "author": {
-    "name": "DefaultCompany",
+    "name": "Studio23",
     "email": "contact@studio-23.xyz",
     "url": "https://studio-23.xyz"
   }
