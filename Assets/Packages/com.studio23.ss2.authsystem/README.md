@@ -1,1 +1,0 @@
-This system will be used to check user authentication for validating proper digital rights management (DRM) of the game. This is the base package for the system. 

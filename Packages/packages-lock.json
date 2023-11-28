@@ -14,6 +14,14 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.studio23.ss2.authsystem": {
+      "version": "file:C:/Users/BS807/Documents/GitHub/com.studio23.ss2.authsystem/Assets/Packages/com.studio23.ss2.authsystem",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
     "com.studio23.ss2.upmassistant": {
       "version": "1.0.3",
       "depth": 0,

@@ -2,6 +2,7 @@
   "dependencies": {
     "com.cysharp.unitask": "2.5.0",
     "com.facepunch.steamworks": "2.3.6",
+    "com.studio23.ss2.authsystem": "file:C:/Users/BS807/Documents/GitHub/com.studio23.ss2.authsystem/Assets/Packages/com.studio23.ss2.authsystem",
     "com.studio23.ss2.upmassistant": "1.0.3",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",

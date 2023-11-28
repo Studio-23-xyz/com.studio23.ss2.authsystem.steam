@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39712533d6282604da6b5d6a7459d40f, type: 3}
   m_Name: SteamAuthData
   m_EditorClassIdentifier: 
-  AppId: 3435465
+  _appID: 23123

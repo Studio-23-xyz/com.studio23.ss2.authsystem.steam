@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.authsystem.steam",
-  "version": "0.1",
+  "version": "0.9.0",
   "displayName": "AuthenticationSteam",
   "description": "This is an authentication system for steam. Used for checking and validating steam DRM for the game.",
   "unity": "2022.3",

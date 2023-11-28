@@ -40,12 +40,17 @@ namespace Studio23.SS2.AuthSystem.Steam.Editor
             {
                 AssetDatabase.CreateFolder("Assets", "Resources");
             }
+            // Check if the AuthSystem folder exists within Resources, if not, create it
+            if (!AssetDatabase.IsValidFolder("Assets/Resources/AuthSystem"))
+            {
+                AssetDatabase.CreateFolder("Assets/Resources", "AuthSystem");
+            }
             // Create a new instance of your SteamProvider scriptable object
             SteamProvider steamProvider = ScriptableObject.CreateInstance<SteamProvider>();
             steamProvider.AppId = _steamAppId;
-
-            // Save the scriptable object to the Resources folder
-            AssetDatabase.CreateAsset(steamProvider, "Assets/Resources/SteamAuthData.asset");
+            steamProvider.SetAppId();
+            // Save the scriptable object to the AuthSystem folder within the Resources folder
+            AssetDatabase.CreateAsset(steamProvider, "Assets/Resources/AuthSystem/SteamAuthData.asset");
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
             EditorUtility.SetDirty(steamProvider);

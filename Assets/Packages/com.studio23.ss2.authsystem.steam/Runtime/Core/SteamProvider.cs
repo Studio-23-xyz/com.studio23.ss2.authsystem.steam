@@ -6,15 +6,17 @@ namespace Studio23.SS2.AuthSystem.Steam.Core
 {
     public class SteamProvider : ProviderBase
     {
-        public uint AppId;
+        [SerializeField] private uint _appID;
 
-        public void SetAppId(uint appId)
+        public uint AppId { get; set; }
+
+        public void SetAppId()
         {
-            AppId = appId;
+            _appID = AppId;
         }
 
         /// <summary>
-        /// Call this method to enable steam authentication per user
+        ///     Call this method to enable steam authentication per user
         /// </summary>
         public override void Authenticate()
         {
