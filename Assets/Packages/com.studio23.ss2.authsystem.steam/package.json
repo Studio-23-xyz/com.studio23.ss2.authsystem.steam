@@ -5,29 +5,37 @@
   "description": "This is an authentication system for steam. Used for checking and validating steam DRM for the game.",
   "unity": "2022.3",
   "unityRelease": "10f1",
-  "documentationUrl": "https://openupm.com/packages/com.studio23.ss2.authsystem.steam",
-  "changelogUrl": "https://openupm.com/packages/com.studio23.ss2.authsystem.steam",
-  "licensesUrl": "https://api.github.com/licenses/mit",
+  "documentationUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.authsystem.steam/manual/",
+  "changelogUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.authsystem.steam/changelog/CHANGELOG.html",
+  "licensesUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.authsystem.steam/license/LICENSE.html",
   "scopedRegistries": [
     {
       "name": "Studio 23",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.studio23.ss2.authsystem.steam"
+        "com.studio23.ss2.authsystem"
       ]
     }
   ],
   "dependencies": {
-    "com.studio23.ss2.authsystem": "2.0.0",
-    "com.facepunch.steamworks": "2.3.6"
+    "com.studio23.ss2.authsystem": "4.0.2",
+    "com.facepunch.steamworks": "2.3.6",
+    "com.cysharp.unitask": "2.5.3"
   },
+  "samples": [
+    {
+      "displayName": "Example",
+      "description": "A small sample to demonstrate the abilities of the package.",
+      "path": "Samples~/Demo"
+    }
+  ],
   "keywords": [
     "Steam",
     "Authentication",
     "DRM"
   ],
   "author": {
-    "name": "Studio23",
+    "name": "Studio 23",
     "email": "contact@studio-23.xyz",
     "url": "https://studio-23.xyz"
   }

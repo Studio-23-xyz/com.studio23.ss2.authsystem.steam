@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.cysharp.unitask": {
-      "version": "2.5.0",
+      "version": "2.5.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -15,19 +15,11 @@
       "url": "https://package.openupm.com"
     },
     "com.studio23.ss2.authsystem": {
-      "version": "file:C:/Users/BS807/Documents/GitHub/com.studio23.ss2.authsystem/Assets/Packages/com.studio23.ss2.authsystem",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
-      }
-    },
-    "com.studio23.ss2.upmassistant": {
-      "version": "1.0.3",
+      "version": "4.0.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
+        "com.cysharp.unitask": "2.5.0"
       },
       "url": "https://package.openupm.com"
     },
@@ -57,8 +49,8 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.18",
-        "com.unity.ide.rider": "3.0.24",
+        "com.unity.ide.visualstudio": "2.0.22",
+        "com.unity.ide.rider": "3.0.26",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.2.2",
@@ -67,7 +59,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.24",
+      "version": "3.0.26",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -76,7 +68,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.18",
+      "version": "2.0.22",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -86,13 +78,6 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.5",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "3.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -143,7 +128,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.7.5",
+      "version": "1.7.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -164,7 +149,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.0",
+      "version": "1.9.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {

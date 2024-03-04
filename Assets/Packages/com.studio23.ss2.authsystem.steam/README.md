@@ -23,15 +23,10 @@ https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.steam.git#upm
 
 ### Using AuthSystem.Steam
 
-1. Open Steam Authenticator Window by going Studio-23 > Authentication > Provide Steam Authentication Data
+1. Install by going Studio-23 > AuthSystem > Provider > Steam
 
-2. Add the steam app id. **[IMPORTANT]**
+2. Add the steam app id in the scriptable object created in the resource folder. **[IMPORTANT]** 
 
-3. Create Steam Provider Asset
-
-4. Now assign the provider asset to the Authentication Manager class.
-
-5. Rest of the usage can be done from Authentication Manager.
 
 
 

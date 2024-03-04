@@ -2,13 +2,20 @@
     "name": "com.studio23.ss2.authsystem.steam",
     "rootNamespace": "",
     "references": [
-        "GUID:661a6088aa5ffcf459b89da5f0fadcb1"
+        "com.studio23.ss2.authsystem",
+        "UniTask"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64",
+        "WindowsStandalone64"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Facepunch.Steamworks.Win64.dll"
+    ],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
