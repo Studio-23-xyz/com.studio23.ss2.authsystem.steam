@@ -1,0 +1,47 @@
+{
+  "api/Studio23.SS2.AuthSystem.Steam.Data.SteamAuthProvider.html": {
+    "href": "api/Studio23.SS2.AuthSystem.Steam.Data.SteamAuthProvider.html",
+    "title": "Class SteamAuthProvider | |",
+    "keywords": "Class SteamAuthProvider Namespace Studio23.SS2.AuthSystem.Steam.Data public class SteamAuthProvider : AuthProviderBase Inheritance System.Object SteamAuthProvider Fields AppId public uint AppId Field Value uint Methods Authenticate() public override UniTask<int> Authenticate() Returns UniTask<int> GetUserData() public override UniTask<UserData> GetUserData() Returns UniTask<UserData>"
+  },
+  "api/Studio23.SS2.AuthSystem.Steam.Data.html": {
+    "href": "api/Studio23.SS2.AuthSystem.Steam.Data.html",
+    "title": "Namespace Studio23.SS2.AuthSystem.Steam.Data | |",
+    "keywords": "Namespace Studio23.SS2.AuthSystem.Steam.Data Classes SteamAuthProvider"
+  },
+  "api/Studio23.SS2.AuthSystem.Steam.Editor.SteamAuthGeneratorEditorWindow.html": {
+    "href": "api/Studio23.SS2.AuthSystem.Steam.Editor.SteamAuthGeneratorEditorWindow.html",
+    "title": "Class SteamAuthGeneratorEditorWindow | |",
+    "keywords": "Class SteamAuthGeneratorEditorWindow Namespace Studio23.SS2.AuthSystem.Steam.Editor public class SteamAuthGeneratorEditorWindow : EditorWindow Inheritance System.Object SteamAuthGeneratorEditorWindow"
+  },
+  "api/Studio23.SS2.AuthSystem.Steam.Editor.html": {
+    "href": "api/Studio23.SS2.AuthSystem.Steam.Editor.html",
+    "title": "Namespace Studio23.SS2.AuthSystem.Steam.Editor | |",
+    "keywords": "Namespace Studio23.SS2.AuthSystem.Steam.Editor Classes SteamAuthGeneratorEditorWindow"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| |",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | |",
+    "keywords": "Changelog [v1.0.0] - 2024-03-04 Initial Release"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| |",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| |",
+    "keywords": "MIT License Copyright (c) [2023] [Studio-23] Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "AuthenticationSystem.Steam | |",
+    "keywords": "AuthenticationSystem.Steam This is an extention package for Authentication System. Steam exposes multiple methods for authenticating a Steam user's identity and verifying ownership of an application. This system will provide validation for the steam and verify the identity and ownership of the following product. Table of Contents Installation Usage Installation Install via Git URL You can also use the \"Install from Git URL\" option from Unity Package Manager to install the package. https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.steam.git#upm Usage Using AuthSystem.Steam Install by going Studio-23 > AuthSystem > Provider > Steam Add the steam app id in the scriptable object created in the resource folder. [IMPORTANT]"
+  }
+}
