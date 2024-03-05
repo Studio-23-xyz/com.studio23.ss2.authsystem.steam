@@ -30,7 +30,7 @@ MonoBehaviour:
     m_Name: package.openupm.com
     m_Url: https://package.openupm.com
     m_Scopes:
-    - com.studio23.ss2.upmassistant
+    - com.studio23.ss2
     - com.cysharp.unitask
     - com.facepunch.steamworks
     m_IsDefault: 0
@@ -41,6 +41,6 @@ MonoBehaviour:
   m_RegistryInfoDraft:
     m_Modified: 0
     m_ErrorMessage: 
-    m_UserModificationsInstanceId: -836
-    m_OriginalInstanceId: -838
+    m_UserModificationsInstanceId: -852
+    m_OriginalInstanceId: -856
   m_LoadAssets: 0
